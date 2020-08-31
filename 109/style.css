@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+h2{
+	margin:200px;	
+}
+
+
+
+h2:before{
+	content:"IT";
+	background:green;
+	color:#fff;
+	margin-right:15px;
+}
+
+h2:after{
+	content:"BARI";
+}
+
+.mydiv{
+	width:150px;
+	height:150px;
+	background:red;
+	margin:50px;
+}
+
+.mydiv:before{
+	content:"First";
+}
+.mydiv:after{
+	content:"last";
+}
+
+
+
+
+
+
+
+
+
+
+
+

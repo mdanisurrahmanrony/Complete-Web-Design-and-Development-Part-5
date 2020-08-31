@@ -1,0 +1,9 @@
+p#sticker{
+	background:green;
+	color:#fff;
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+}

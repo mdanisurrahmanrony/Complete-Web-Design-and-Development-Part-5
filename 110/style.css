@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.button{
+	display:block;
+	margin:200px;
+	text-decoration:none;
+}
+
+.content{
+	background:#ddd;
+	padding:10px 30px;
+	position:relative;
+	z-index:5;
+	overflow:hidden;
+	display:inline-block;
+}
+.content:hover{
+	background:none;
+	color:white;
+}
+
+.content:before{
+	content:"";
+	position:absolute;
+	width:50%;
+	height:100%;
+	background:green;
+	top:0;
+	left:-50%;
+	transition:all 0.3s ease;
+	z-index:-5;
+}
+.button:hover .content:before{
+	left:0;
+}
+
+.content:after{
+	content:"";
+	position:absolute;
+	width:50%;
+	height:100%;
+	background:red;
+	top:0;
+	right:-50%;
+	transition:all 0.3s ease;
+	z-index:-5;
+}
+.button:hover .content:after{
+	right:0;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

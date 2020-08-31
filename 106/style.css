@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+*{
+	margin:0;
+	padding:0;
+}
+
+h2{
+	font-size:5em;
+	font-family: 'Poiret One', cursive;
+	color:red;
+	margin:600px;
+	font-weight:bold;
+	
+	/*
+	
+	text-shadow: rgb(254, 252, 201) 0px 0px 20px, rgb(254, 236, 133) 10px -10px 30px, rgb(255, 174, 52) -20px -20px 40px, rgb(236, 118, 12) 20px -40px 50px, rgb(205, 70, 6) -20px -60px 60px, rgb(151, 55, 22) 0px -80px 70px, rgb(69, 27, 14) 10px -90px 80px;
+	
+	*/
+	
+	
+	
+	text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+	
+	
+	
+/*	
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+*/
+	
+}
+
+
+
+
+
+
+
+

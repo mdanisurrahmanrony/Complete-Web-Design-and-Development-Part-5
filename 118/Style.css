@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+*{margin:0;padding:0}
+body{font-family:Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
+p{line-height: 150%;margin-bottom: 2em;}
+.container_full {width: 100%; height: auto;}
+.container {width:960px; margin:0 auto; display:block }
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left}
+.floatright{float:right}
+/*---------------------------*/
+.under_header{background:url(images/ahsan-manzil-full-view.jpg) no-repeat;background-size:cover;height:285px;}
+.menu2{min-height: 50px;
+background: #000;
+margin-top: 200px;
+opacity: 0.7;
+width: 960px;}
+.menu2 ul{}
+.menu2 ul li{list-style:none;float:left}
+.menu2 ul li a{text-decoration:none;padding:30px 15px;display:block;color:#afaaaa;font-family: 'Oswald', sans-serif;font-size:17px;
+transition:all 0.6s;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;
+
+}
+
+

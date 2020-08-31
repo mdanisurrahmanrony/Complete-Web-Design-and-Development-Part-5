@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Tutorial By- ABDUL KADER- IT-BARI.com -->
+		<meta charset="UTF-8"/>
+		<title>Basic jQuery Slider | IT-BARI.com</title>   
+		
+		<link rel="stylesheet" href="bjqs.css">
+		
+		
+		
+		
+		
+		<link rel="stylesheet" href="style.css"/>		
+		
+	</head>
+	<body>
+	
+    <div class="bnrLft">
+      <div id="banner-slide">
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><img src="img/banner01.jpg" alt="">
+            <div class="bjqs-caption">
+              <h2>WHAT WE OFFER</h2>
+              <p>Lorem ipsum dolor sit amet, <br>
+                consectetur adipisicing elit</p>
+              <a href="#">READ MORE</a> </div>
+          </li>
+          <li><img src="img/flower.jpg" alt="">
+            <div class="bjqs-caption">
+              <h2>This is my Text</h2>
+              <p>Lorem ipsum dolor sit amet, <br>
+                consectetur adipisicing elit</p>
+              <a href="#">READ MORE</a> </div>
+          </li>
+          <li><img src="img/banner03.jpg" alt="">
+            <div class="bjqs-caption">
+              <h2>WHAT WE OFFER</h2>
+              <p>Lorem ipsum dolor sit amet, <br>
+                consectetur adipisicing elit</p>
+              <a href="#">READ MORE</a> </div>
+          </li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+      </div>
+    </div>	
+	
+	
+	
+	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<script class="secret-source">
+			jQuery(document).ready(function($) {
+			  
+			  $('#banner-slide').bjqs({
+				animtype      : 'slide',
+				height        : 455,
+				width         : 900,
+				responsive    : true,
+				randomstart   : false
+			  });
+			  
+			});
+	</script>		
+
+	
+	<script src="js/bjqs-1.3.min.js"></script>
+	<script type="text/javascript" src="js/acor.js">
+	
+	</body>
+</html>

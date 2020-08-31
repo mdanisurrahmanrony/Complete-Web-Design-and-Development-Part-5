@@ -1,0 +1,14 @@
+#social_area{
+	list-style-type:none;
+	border:1px solid green;
+	padding:10px;
+	width:336px;
+}
+#social_area li{
+	display:inline;
+	
+}
+#social_area li img{
+	width:64px;
+	height:64px;
+}

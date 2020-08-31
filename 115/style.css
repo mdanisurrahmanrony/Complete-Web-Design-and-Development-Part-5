@@ -1,0 +1,43 @@
+ul{
+	list-style-type:none;
+	margin:200px;
+}
+ul li a{
+	color:#fff;
+	background:#000;
+	display:inline-block;
+	padding:10px 60px;
+	margin:5px 0;
+	text-decoration:none;
+}
+
+ul li a:hover{
+	background:orange;
+}
+
+ul li a:active{
+	background:red;
+}
+
+ul li a:focus{
+	background:brown;
+}
+
+ul li a:visited{
+	background:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
